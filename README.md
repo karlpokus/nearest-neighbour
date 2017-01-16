@@ -1,2 +1,8 @@
 # nearest-neighbour
-Distance between A and B in 2D or 3D space
+Calculate distance between points in space. A work in progress.
+
+# Demo
+[demo](http://codepen.io/KarlPokus/pen/NdROWX?editors=0010)
+
+# Licence
+MIT
