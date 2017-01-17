@@ -1,15 +1,19 @@
 /*
 Return nearest neighbour to target
-dim: 2d | 3d [string]
+2d or 3d depending on target.x
 t: [object] with x, y [, z] as numbers
 data: [array of objects] with x, y [, z] as numbers and name as string
 */
-function nn(dim, t, data) {
+function nn(t, data) {
+  
+  function isNum(x) {
+    return typeof x === 'number';
+  }
   
   function addDistance(o) {
     var args = [t.x - o.x, t.y - o.y];
     
-    if (dim === '3d' && t.z && o.z) {
+    if (isNum(t.z) && isNum(o.z)) {
       args.push(t.z - o.z); 
     }
 
@@ -26,3 +30,5 @@ function nn(dim, t, data) {
     .sort(sortByDistance)
     [0].name;
 }
+
+module.exports = nn;
