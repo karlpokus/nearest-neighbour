@@ -1,8 +1,8 @@
 # nearest-neighbour
 Calculate distance between points in space.
 
-![3d](https://naturvetenskap.org/wp-content/uploads/2009/04/avstand8.gif)
-![2d](https://naturvetenskap.org/wp-content/uploads/2009/04/avstand6.gif)
+![3d](avstand8.jpg?raw=true)
+![2d](avstand6.jpg?raw=true)
 
 [src](https://www.naturvetenskap.org/matematik/matematik-2/avstandsformeln/)
 
